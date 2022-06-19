@@ -9,9 +9,5 @@
 import Foundation
 struct MessageManager{
     
-    var messages: [Message] = [
-        Message(sender: "test@gmail.com", body: "Hey!"),
-        Message(sender: "test2@gmail.com", body: "Hello!"),
-        Message(sender: "test@gmail.com", body: "Hey!")
-    ]
+    var messages: [Message] = []
 }
